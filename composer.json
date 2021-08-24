@@ -1,0 +1,33 @@
+{
+  "name": "hectororm/data-types",
+  "description": "Hector Data Types",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "homepage": "https://gethectororm.com",
+  "authors": [
+    {
+      "name": "Ronan Giron",
+      "email": "ronan@getberlioz.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hector\\DataTypes\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hector\\DataTypes\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3"
+  },
+  "suggest": {
+  }
+}
