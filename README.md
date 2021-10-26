@@ -30,7 +30,6 @@ Each type converter implement interface:
 
 ```php
 use Hector\DataTypes\ExpectedType;
-use Hector\DataTypes\TypeException;
 
 interface TypeInterface
 {
@@ -48,7 +47,6 @@ interface TypeInterface
      * @param ExpectedType|null $expected
      *
      * @return mixed
-     * @throws TypeException
      */
     public function fromSchema(mixed $value, ?ExpectedType $expected = null): mixed;
 
@@ -66,7 +64,6 @@ interface TypeInterface
      * @param ExpectedType|null $expected
      *
      * @return mixed
-     * @throws TypeException
      */
     public function toSchema(mixed $value, ?ExpectedType $expected = null): mixed;
 

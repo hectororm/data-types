@@ -9,6 +9,11 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Added
 
 - New boolean type
+- New PHP 8.1 enum type
+
+### Changed
+
+- `TypeException` renamed to `ValueException` and now inherits the `ValueError` exception
 
 ## [1.0.0-beta1] - 2021-08-27
 
