@@ -11,6 +11,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 - New boolean type
 - New PHP 8.1 enum type
 - Add option on JSON type to force non-associative decode
+- Add option on DateTime type to accept other class like immutable
 
 ### Changed
 
