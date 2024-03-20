@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta5] - 2024-03-20
+
+### Fixed
+
+- `JsonType::equals()` with NULL value
+
 ## [1.0.0-beta3] - 2024-03-19
 
 ### Added
