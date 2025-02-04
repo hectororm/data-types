@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta6] - 2025-02-04
+
+### Added
+
+- `$try` parameter on `EnumType` to allow null value in case of case does not exist
+
 ## [1.0.0-beta5] - 2024-07-02
 
 ### Added
