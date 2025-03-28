@@ -27,8 +27,10 @@
     "ext-pdo": "*"
   },
   "require-dev": {
+    "ramsey/uuid": "^4.0",
     "phpunit/phpunit": "^9.5"
   },
   "suggest": {
+    "ramsey/uuid": "To use ramsey/uuid library as entity property type"
   }
 }
