@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta8] - 2025-03-28
+
+### Added
+
+- New type `UuidType` to store UUID in binary or hexa in database
+- New type `RamseyUuidType` to store UUID in binary or hexa in database and use `ramsey/uuid` library in code
+
+### Fixed
+
+- `JsonType::toSchema()` do not encode scalar values
+
 ## [1.0.0-beta7] - 2025-03-14
 
 ### Fixed
